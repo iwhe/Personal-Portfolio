@@ -1,0 +1,15 @@
+.skill .container .row .item img{
+    height: 150px;
+}
+
+.skill{
+    background-color:rgb(224 241 255);
+    background-image: url("../images/color-sharp.png");
+    background-position: left top;
+    background-repeat: repeat-y;
+
+}
+
+.container{
+    padding:30px;
+}

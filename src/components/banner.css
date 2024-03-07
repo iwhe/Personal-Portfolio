@@ -1,0 +1,114 @@
+/* .banner{
+    height: 200px;
+    width: 800px;
+} */
+.banner {
+    margin-top: 0;
+    /* padding: 260px 0 100px 0; */
+    background-color: rgb(27 180 73 / 47%);
+    /* background-image: url('../images/banner.png'); */
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+
+.banner .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 16px;
+    display: inline-block;
+    
+}
+.banner   .wrap{
+    /* visibility:visible; */
+    min-width: 100px;
+}
+  .description{
+    background-color: #66666641;
+    box-sizing: border-box;
+    /* filter: drop-shadow(10px 10px #dc0c3d); */
+    box-shadow: #ffffff;
+  }
+  .banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+    align-items: start;
+    text-align: left;
+  }
+  .banner p {
+    color: #490202;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+  }
+  .banner button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .banner button:hover svg {
+    margin-left: 25px;
+  }
+  .banner img {
+    animation: updown 3s linear infinite;
+  }
+  @keyframes updown {
+      0% {
+          transform: translateY(-20px);
+      }
+      50% {
+          transform: translateY(20px);
+      }
+      100% {
+          transform: translateY(-20px);
+      }
+  }
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }
+  
+
+.pfp {
+    
+    border-radius: 100%;
+    border-top-left-radius: 100%;
+    width: 400px;
+    margin-top: 127px;
+    padding: 20px;
+    height: 681px;
+    padding-bottom: 191px;
+    border-image-source: none;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    object-fit: cover;
+    display: flex;
+    align-items: start;
+}
+
+/* .pfp{
+     height: 200px;
+    
+    box-sizing: border-box;
+    object-fit: fill;
+} */

@@ -1,0 +1,21 @@
+.projects{
+    text-align: center;
+    background-color: rgba(247, 216, 177, 0.558);
+
+}
+
+
+.Card{ 
+   
+    text-align: center;
+    background-color: rgb(226, 212, 194);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    padding: 10px;
+
+} 
+.Card p{
+    padding: 10px;
+    text-align: justify;
+}

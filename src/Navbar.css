@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+}
+.navitem{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    margin-right: 10rem;
+
+}
+.navbar{
+    /* background-color: #6b87ee9f; */
+    position: fixed;
+    width:100%;
+    color : white;
+    /* background-color: rgba(47, 177, 86, 0.268); */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar a{
+    color: inherit;
+    text-decoration: none;
+    margin-left:  25px;
+}
+.navbar a:hover{
+    color:#53c4fd;
+}
+.navbar a:active{
+    color:#f27420;
+}
