@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 /* .App-logo {
@@ -37,12 +38,10 @@
   }
 }
 
-body{
-  background-color: rgba(0,0,0,0.1);
-}
 
 .App{
   display: block;
   position: relative;
   align-items: end;
+  
 }

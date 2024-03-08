@@ -8,15 +8,15 @@ body {
 .navitem{
     display: flex;
     justify-content: space-between;
-    gap: 10rem;
-    margin-right: 10rem;
+    /* gap: 10rem; */
+    /* margin-right: 10rem; */
 
 }
 .navbar{
     /* background-color: #6b87ee9f; */
     position: fixed;
     width:100%;
-    color : white;
+    color : rgb(238, 26, 26);
     /* background-color: rgba(47, 177, 86, 0.268); */
     display: flex;
     justify-content:space-between;
@@ -26,6 +26,11 @@ body {
 }
 
 
+.navbar img{
+    position: relative;
+    max-width: 95px;
+    padding-left: 10px;
+}
 .navbar ul{
     list-style: none;
 }

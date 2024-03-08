@@ -5,7 +5,7 @@
 .banner {
     margin-top: 0;
     /* padding: 260px 0 100px 0; */
-    background-color: rgb(27 180 73 / 47%);
+    background-color: rgb(8 0 0 / 60%);;
     /* background-image: url('../images/banner.png'); */
     background-position: top center;
     background-size: cover;
@@ -90,7 +90,6 @@
   
 
 .pfp {
-    
     border-radius: 100%;
     border-top-left-radius: 100%;
     width: 400px;
@@ -105,7 +104,9 @@
     display: flex;
     align-items: start;
 }
-
+.banner img {
+  position: relative;
+}
 /* .pfp{
      height: 200px;
     
