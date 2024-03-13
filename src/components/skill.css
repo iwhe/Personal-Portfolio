@@ -2,8 +2,29 @@
     height: 150px;
 }
 
+.skill .container{
+    /* background-color: rgb(226, 212, 194);
+     */
+     /* background: linear-gradient(90.21deg, rgba(161, 110, 15, 0.951) -5.91%, rgba(232, 155, 14, 0.978) 111.58%); */
+   
+    /* border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */
+}
+
+.skill .container .row {
+    margin-top: 20px 0px;
+    padding: 20px;
+    /* background: linear-gradient(90.21deg, rgba(255, 236, 30, 0.907) -5.91%, rgba(255, 193, 36, 0.978) 111.58%); */
+    background-color: rgb(226, 212, 194);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
 .skill{
-    background-color:rgb(224 241 255);
+    background-color:#6b87ee;
+    /* background-color:rgb(224 241 255); */
     background-image: url("../images/color-sharp.png");
     background-position: left top;
     background-repeat: repeat-y;

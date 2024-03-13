@@ -1,6 +1,7 @@
 .about_me{
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color:#6b87ee;
+    /* background-color: rgba(0, 0, 0, 0.1); */
     box-sizing: border-box;
     display: flex;
     justify-content: center;

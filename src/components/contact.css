@@ -1,5 +1,12 @@
+.contact-section{
+    background-color:#6b87ee;
+}
+
 .contact-container{
-    background-color: rgb(226, 212, 194);
+    /* background-color: rgb(226, 212, 194);
+     */
+     background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+   
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
@@ -68,10 +75,25 @@ form{
 .connect li{
     list-style:  none;
     margin: 10px;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: rgba(229, 145, 36, 0.21);
     font-size: larger;
-    
-    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
 
+.connect li img{
+    height: 40px;
+    width: 40px;
+  
+}
+
+.connect li a{
+margin: 10px;
+margin-left: 50px;
+padding-left: 10px;
+color: black;
 }

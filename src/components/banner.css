@@ -3,9 +3,12 @@
     width: 800px;
 } */
 .banner {
-    margin-top: 0;
-    /* padding: 260px 0 100px 0; */
-    background-color: rgb(8 0 0 / 60%);;
+    /* margin-top: 200px; */
+    padding: 100px 0px;
+    /* background-color:#6b87ee;
+     */
+     background-color: #72cdf4;
+    /* background-color: rgb(8 0 0 / 60%);; */
     /* background-image: url('../images/banner.png'); */
     background-position: top center;
     background-size: cover;
@@ -19,6 +22,7 @@
     padding: 8px 10px;
     background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
     border: 1px solid rgba(255, 255, 255, 0.5);
+
     font-size: 20px;
     text-align: left;
     margin-bottom: 16px;
@@ -26,14 +30,22 @@
     
 }
 .banner   .wrap{
-    /* visibility:visible; */
+    font-family: monospace;
+    text-wrap:pretty;
     min-width: 100px;
 }
+.banner .description img{
+  height: 40px;
+  width: 25px;
+}
   .description{
-    background-color: #66666641;
+    /* background-color: #66666641; */
+    background-color: #ffe552;
+    /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
     box-sizing: border-box;
     /* filter: drop-shadow(10px 10px #dc0c3d); */
     box-shadow: #ffffff;
+    
   }
   .banner h1 {
     font-size: 65px;
@@ -45,12 +57,22 @@
     align-items: start;
     text-align: left;
   }
+
+  .location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
   .banner p {
     color: #490202;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 96%;
+    text-align: justify;
+    margin-top:  10px;
+    padding: 20px 0px;
   }
   .banner button {
     color: #fff;
@@ -70,9 +92,9 @@
   .banner button:hover svg {
     margin-left: 25px;
   }
-  .banner img {
+  /* .banner img {
     animation: updown 3s linear infinite;
-  }
+  } */
   @keyframes updown {
       0% {
           transform: translateY(-20px);
@@ -91,14 +113,13 @@
 
 .pfp {
     border-radius: 100%;
-    border-top-left-radius: 100%;
-    width: 400px;
-    margin-top: 127px;
-    padding: 20px;
-    height: 681px;
-    padding-bottom: 191px;
+    /* border-top-left-radius: 100%; */
+    max-width: 400px;
+    /* margin-top: 127px; */
+    /* padding: 20px; */
+    max-height: 681px;
+    /* padding-bottom: 191px; */
     border-image-source: none;
-    box-sizing: border-box;
     box-sizing: border-box;
     object-fit: cover;
     display: flex;

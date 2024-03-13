@@ -45,3 +45,7 @@
   align-items: end;
   
 }
+
+.contents{
+  scroll-padding-top: 50px;
+}
