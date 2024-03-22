@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Container, Row, Col } from "react-bootstrap";
 import "./banner.css";
-import profileImg from "../images/sunset.jpg";
+import profileImg from "../images/profile_pic.jpg";
 import locationIcon from "../images/social-icons/location.png";
 
 export const Banner = () => {
@@ -11,7 +11,7 @@ export const Banner = () => {
   const toRotate = ["Web Developer", "Web Designer", "Software Engineer"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const period = 2000;
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -42,29 +42,31 @@ export const Banner = () => {
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setDelta(500);
+      setDelta(100);
     }
   };
 
   return (
     <section className="banner" id="home">
-      <Container>
+      <Container className="profileContainer">
         <Row className="align-items-center">
           <Col xs={6} md={6} xl={5}>
-            <img className="pfp" src={profileImg} alt="ProfileImage" />
+            <div className="profileImage">
+              <img className="pfp" src={profileImg} alt="ProfileImage" />
+            </div>
           </Col>
 
           <Col className="description" xs={6} md={6} xl={7}>
             <span className="tagline"> Welcome to my Portfolio</span>
-            <h1>
+            <h2>
               Hi, <br />
-              I'm Bhupesh!,
+              I'm Bhupesh!
               <div className="wrap">
                 {" "}
                 {text ? <h2>{text}</h2> : <h2>&nbsp;</h2>}{" "}
               </div>
               {/* <div>{text}</div> */}
-            </h1>
+            </h2>
 
             <div className="location">
               <img src={locationIcon}></img>
