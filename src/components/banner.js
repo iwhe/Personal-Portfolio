@@ -2,6 +2,10 @@ import { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Container, Row, Col } from "react-bootstrap";
 import "./banner.css";
+import github from "../images/social-icons/github.png";
+import X from "../images/social-icons/x.png";
+import linkedin from "../images/social-icons/linkedin1.png";
+import gmail from "../images/social-icons/mail.png";
 import profileImg from "../images/profile_pic.jpg";
 import locationIcon from "../images/social-icons/location.png";
 
@@ -48,15 +52,15 @@ export const Banner = () => {
 
   return (
     <section className="banner" id="home">
-      <Container className="profileContainer">
+      <div className="profileContainer">
         <Row className="align-items-center">
-          <Col xs={6} md={6} xl={5}>
+          <Col className="profile" xs={4} md={4} xl={5}>
             <div className="profileImage">
               <img className="pfp" src={profileImg} alt="ProfileImage" />
             </div>
           </Col>
 
-          <Col className="description" xs={6} md={6} xl={7}>
+          <Col className="description" xs={8} md={8} xl={7}>
             <span className="tagline"> Welcome to my Portfolio</span>
             <h2>
               Hi, <br />
@@ -82,8 +86,32 @@ export const Banner = () => {
               opportunities.
             </p>
           </Col>
+          <div className="profileLink">
+            <ul>
+              <li>
+                <a href="https://www.github.com/iwhe">
+                  <img src={github}></img>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/bhupeshpaneru/">
+                  <img src={linkedin}></img>
+                </a>
+              </li>
+              <li>
+                <a href="https://x.com/codewbhupesh">
+                  <img src={X}></img>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:bhupeshpaneru7@gmail.com">
+                  <img src={gmail}></img>
+                </a>
+              </li>
+            </ul>
+          </div>
         </Row>
-      </Container>
+      </div>
     </section>
   );
 };

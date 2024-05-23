@@ -4,7 +4,7 @@
 } */
 .banner {
     /* margin-top: 200px; */
-    padding: 100px 0px;
+    padding: 100px 100px;
     /* background-color:#6b87ee;
      */
      background-color: #72cdf4;
@@ -13,13 +13,11 @@
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
  
 }
 
-.align-items-center{
-  display: flex;
-  justify-content: space-between;
-}
 .banner .tagline {
     font-weight: 700;
     letter-spacing: 0.8px;
@@ -44,10 +42,12 @@
 }
   .description{
     /* background-color: #66666641; */
+    margin-top: 40px;
     background-color: #ffe552;
-    /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
     box-sizing: border-box;
     /* filter: drop-shadow(10px 10px #dc0c3d); */
+    color: cornsilk;
     box-shadow: #ffffff;
     z-index: 99;
     border-radius: 30px;
@@ -120,20 +120,54 @@
     display: flex;
     justify-content: space-around;
   }
+  .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    
+  }
   .profileImage{
     background-color: #666;
     width: 340px;
     height: 340px;
-    border-radius: 170px;
+    border-radius: 50px;
+    border: 5px solid #e7c505b6;
+     /* #be782edb; */
     position: relative;
-    overflow: hidden;
-    
+    overflow: hidden; 
   }
+
+  .profileLink ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    /* background-blend-mode: multiply; */
+  }
+  .profileLink ul img{
+  mix-blend-mode: multiply;
+  width: 30px;
+  }
+
   @media screen and (max-width: 768px) {
+    .banner {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      justify-content: flex-start;
+      align-items: start;
+      padding: 100px 10px;
+    }
     .profileImage {
-      width: 200px;  /* set your desired width for smaller screens */
-      border-radius: 50%;
-      height: 200px; /* set your desired height or auto for smaller screens */
+      width: 150px;  /* set your desired width for smaller screens */
+      border-radius: 30px;
+      height: 150px; /* set your desired height or auto for smaller screens */
+    }
+    .profileLink ul img{
+    width: 20px;
     }
   }
 .pfp {
