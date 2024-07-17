@@ -19,7 +19,9 @@ export const About = () => {
           learning and growth. While I have not yet mastered a specific skill
           set, I possess a beginner to intermediate level of proficiency in
           multiple areas, embodying the "jack of all trades, master of none"
-          philosophy.
+          philosophy as of now, but I surely want to be a master of some
+          specific skill set in future as I gather experience exploring various
+          things.
           <br></br>
           <br></br>
           <strong>My skillset includes:</strong>

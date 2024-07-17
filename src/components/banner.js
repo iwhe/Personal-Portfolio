@@ -54,14 +54,14 @@ export const Banner = () => {
     <section className="banner" id="home">
       <div className="profileContainer">
         <Row className="align-items-center">
-          <Col className="profile" xs={4} md={4} xl={5}>
+          {/* <Col className="profile" xs={4} md={4} xl={5}>
             <div className="profileImage">
               <img className="pfp" src={profileImg} alt="ProfileImage" />
             </div>
-          </Col>
-
-          <Col className="description" xs={8} md={8} xl={7}>
-            <span className="tagline"> Welcome to my Portfolio</span>
+          </Col> */}
+          {/* xs={8} md={8} xl={7} */}
+          <Col className="description">
+            {/* <span className="tagline"> Welcome to my Portfolio</span> */}
             <h2>
               Hi, <br />
               I'm Bhupesh!
@@ -74,7 +74,7 @@ export const Banner = () => {
 
             <div className="location">
               <img src={locationIcon}></img>
-              <h4> Bengaluru, India.</h4>
+              <h4>Kathmandu, Nepal</h4>
             </div>
 
             <p>
