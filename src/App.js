@@ -6,12 +6,14 @@ import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 import { Projects } from "./components/project";
 import { Skills } from "./components/skill";
+import  updateBanner from "components/updatebanner";
 import Navbar from "./navbar";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <updateBanner />
       <div className="contents">
         <Banner />
         <Projects />
