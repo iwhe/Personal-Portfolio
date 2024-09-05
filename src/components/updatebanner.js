@@ -3,13 +3,14 @@ const UpdateBanner = () => {
   const bannerStyle = {
     width: '100%',
     height: '50px',
-    backgroundColor: 'rgba(0, 0, 0, 0.85)',
+    backgroundColor: 'rgba(0, 2, 2, 0.85)',
     color: 'white',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     overflow: 'hidden',
-    position: 'relative',
+    position: 'absolute',
+    marginTop: '70px',
     fontFamily: 'Arial, sans-serif',
   };
 
