@@ -1,5 +1,5 @@
-const updateBanner = () => {
-  // Define styles as JavaScript objects
+const UpdateBanner = () => {
+
   const bannerStyle = {
     width: '100%',
     height: '50px',
@@ -56,4 +56,4 @@ const updateBanner = () => {
   );
 };
 
-export default updateBanner;
+export default UpdateBanner;
